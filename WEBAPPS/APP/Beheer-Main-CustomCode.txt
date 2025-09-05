@@ -53,13 +53,13 @@
   <div class="beheer-card">
     <h2>📊 Vragenlijst Upload</h2>
     <p>Upload de responses op de vragenlijst en laad de data in de database.</p>
-    <a href="https://www.fixbrigade.nl/beheer" target="_blank">Ga naar Upoad</a>
+    <a href="https://www.fixbrigade.nl/beheer">Ga naar Upoad</a>
   </div>
 
   <!-- Optie 2 -->
   <div class="beheer-card">
     <h2>📑 Impactslides Generator</h2>
     <p>Genereer automatisch Impactslides op basis van de kwartaalcijfers</p>
-    <a href="https://www.fixbrigade.nl/beheer-impactslides" target="_blank">Ga naar Generator</a>
+    <a href="https://www.fixbrigade.nl/beheer-impactslides">Ga naar Generator</a>
   </div>
 </div>
