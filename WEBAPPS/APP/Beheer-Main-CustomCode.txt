@@ -1,0 +1,65 @@
+<style>
+  .beheer-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .beheer-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .beheer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  }
+
+  .beheer-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #333;
+  }
+
+  .beheer-card p {
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+
+  .beheer-card a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #0070f3;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+  }
+
+  .beheer-card a:hover {
+    background: #005bb5;
+  }
+</style>
+
+<div class="beheer-dashboard">
+  <!-- Optie 1 -->
+  <div class="beheer-card">
+    <h2>📊 Vragenlijst Upload</h2>
+    <p>Upload de responses op de vragenlijst en laad de data in de database.</p>
+    <a href="https://www.fixbrigade.nl/beheer" target="_blank">Ga naar Upoad</a>
+  </div>
+
+  <!-- Optie 2 -->
+  <div class="beheer-card">
+    <h2>📑 Impactslides Generator</h2>
+    <p>Genereer automatisch Impactslides op basis van de kwartaalcijfers</p>
+    <a href="https://www.fixbrigade.nl/beheer-impactslides" target="_blank">Ga naar Generator</a>
+  </div>
+</div>
