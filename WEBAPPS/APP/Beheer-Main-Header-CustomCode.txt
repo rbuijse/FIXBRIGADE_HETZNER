@@ -1,0 +1,23 @@
+<!-- Custom beheer header -->
+<div class="beheer-header">
+  <h1>🔐 Beheer Dashboard FIXbrigade</h1>
+</div>
+
+<style>
+  .beheer-header {
+    background: #0070f3;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+  }
+  .beheer-header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .beheer-header nav a:hover {
+    text-decoration: underline;
+  }
+</style>
