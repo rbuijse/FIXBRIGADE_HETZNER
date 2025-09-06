@@ -12,7 +12,7 @@ os.makedirs(output_dir, exist_ok=True)
 conn = mysql.connector.connect(
     host="91.99.202.248",
     user="fixadmin",
-    password="FjxfLoc6H*qk7Dh3",
+    password="",
     database="FIXDB",
     port=3306
 )
